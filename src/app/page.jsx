@@ -22,18 +22,18 @@ const Home = () => {
 					</svg>
 				</button>
 			</div>
-			<div className="sm:flex-row flex-col flex justify-between w-full px-16 mt-16">
-				<div className="w-1/3 flex flex-col items-center justify-center py-4 px-4">
+			<div className="sm:flex-row flex-col flex justify-between w-full px-8 sm:px-16 mt-16">
+				<div className="w-full flex flex-col items-center justify-center py-4 px-4 sm:w-1/3">
 					<svg className="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="7" cy="17" r="2" />  <circle cx="17" cy="17" r="2" />  <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />  <line x1="3" y1="9" x2="7" y2="9" /></svg>					
 					<span className="text-lg">Giao hành nhanh</span>
 					<span className="font-semibold text-gray-500 text-sm">Giao nhanh trên toàn quốc</span>
 				</div>				
-				<div className="w-1/3 sm:border-x-2 sm:border-y-0 border-y-2 flex flex-col items-center justify-center py-4 px-4">
+				<div className="w-full sm:w-1/3 sm:border-x-2 sm:border-y-0 border-y-2 flex flex-col items-center justify-center py-4 px-4">
 					<svg className="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6-6a6 6 0 0 1 -8 -8l3.5 3.5" /></svg>
 					<span className="text-lg">Bảo hành</span>
 					<span className="font-semibold text-gray-500 text-sm">Chế độ bảo hành tốt nhất. An tâm sử dụng</span>
 				</div>
-				<div className="w-1/3 flex flex-col items-center justify-center py-4 px-4">
+				<div className="w-full sm:w-1/3 flex flex-col items-center justify-center py-4 px-4">
 					<svg className="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="4" y="13" rx="2" width="4" height="6" />  <rect x="16" y="13" rx="2" width="4" height="6" />  <path d="M4 15v-3a8 8 0 0 1 16 0v3" />  <path d="M18 19a6 3 0 0 1 -6 3" /></svg>					
 					<span className="text-lg">Tư vấn</span>
 					<span className="font-semibold text-gray-500 text-sm">Hỗ trợ 24/7</span>
