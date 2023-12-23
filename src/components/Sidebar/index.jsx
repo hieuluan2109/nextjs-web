@@ -7,21 +7,21 @@ const Sidebar = () => {
 
 	const [isOpen, setOpen] = useState(false);
 
-	const handleOpenMenu = () => {
-		setOpen(!isOpen);
+	const handleOpenMenu = (open) => {
+		setOpen(open);
 	}
 
 	useEffect(() => {
-		if (!isOpen) {
-			document.querySelector("body").classList.toggle("overflow-hidden")
-		} else {
+		if (isOpen) {
 			document.querySelector("body").classList.add("overflow-hidden")
+		} else {
+			document.querySelector("body").classList.remove("overflow-hidden")
 		}
 	}, [isOpen]);
 
 	return (
 		<nav className="block sm:hidden">
-			<button onClick={handleOpenMenu} className="hamburger h-8 p-2 border border-black rounded-full">
+			<button onClick={() => handleOpenMenu(!isOpen)} className="hamburger h-8 p-2 border border-black rounded-full">
 				<span className="block w-4 h-0.5 bg-gray-700 mb-1"></span>
 				<span className="block w-4 h-0.5 bg-gray-700 mb-1"></span>
 				<span className="block w-4 h-0.5 bg-gray-700 mb-1"></span>
@@ -34,7 +34,7 @@ const Sidebar = () => {
 					<div className=" text-gray-300 border-b border-zinc-500 py-3" aria-current="page">Bật lửa</div>
 					<div className=" text-gray-300 border-b border-zinc-500 py-3"aria-current="page">Hóa hơi</div>
 				</ul>
-				<div onClick={handleOpenMenu} className="w-2/5 h-full bg-red-500  opacity-70">
+				<div onClick={() => handleOpenMenu(false)} className="w-2/5 h-full bg-red-500  opacity-70">
 					<svg className="ml-auto h-8 w-8 text-white"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="18" y1="6" x2="6" y2="18" />  <line x1="6" y1="6" x2="18" y2="18" /></svg>
 				</div>
 			</div>

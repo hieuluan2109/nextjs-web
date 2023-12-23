@@ -3,15 +3,10 @@ import { useRouter } from 'next/navigation'
 import CartIcon from "../CartIcon";
 import NavBar from "../NavBar";
 import SearchBar from "../SearchBar";
-import { useEffect } from 'react';
 import Sidebar from '../Sidebar';
 
 const Header = () => {
 	const router = useRouter();
-
-	useEffect(() => {
-
-	})
 
 	return (
 		<div>
