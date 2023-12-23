@@ -106,7 +106,7 @@ const ItemDetail = () => {
 					</div>
 				</div>
 			</section>
-			<section className="py-10 font-poppins dark:bg-gray-800">
+			<section className="py-10 font-poppins dark:bg-gray-800 px-8">
 				<div className="flex border-t-2 pt-4 flex-col">
 					<span className="text-2xl mb-6 font-semibold" >Mô tả sản phẩm</span>
 					<span className="text-gray-600">

@@ -12,7 +12,7 @@ const DownIcon = () => {
 const Shop = () => {
 	return (
 		<div className="flex">
-			<div className="!w-[30%] p-6 pr-0">
+			<div className="w-[30%] p-6 pr-0 sm:block hidden">
 				<span className="text-lg text-gray-500 font-semibold">Tìm kiếm sản phẩm</span>
 				<span className="block max-w-[30px] my-4 mx-0 w-full h-[3px] bg-gray-200" />
 				<SearchBar navClass="!px-0"/>
@@ -31,7 +31,7 @@ const Shop = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="max-w-[70%] pt-8 pl-2">
+			<div className="w-full sm:max-w-[70%] pt-8 pl-2">
 				<GoodsList goods={[1,2,3,4,5,6,7,8,9]} showAddToCardButton={true} />
 			</div>
 		</div>

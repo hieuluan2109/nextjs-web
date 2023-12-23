@@ -4,8 +4,8 @@ const ShowcaseGoods = ({ title, showAddToCardButton }) => {
 	return (
 		<div className="flex flex-wrap -mx-3 mb-3 w-full">
 			<div className="w-full max-w-full px-3 mb-6  mx-auto">
-				<div className="relative flex-[1_auto] flex flex-col break-words min-w-0 bg-clip-border rounded-[.95rem] border border-dashed border-stone-200 bg-white m-5">
-					<div className="flex-auto block py-8 px-9">
+				<div className="relative flex-[1_auto] flex flex-col break-words min-w-0 bg-clip-border rounded-[.95rem] border border-dashed border-stone-200 bg-white sm:m-5 m-0">
+					<div className="flex-auto block py-8 sm:px-9 px-2">
 						<div>
 							<div className="mb-9">
 								<div className="flex items-center">
