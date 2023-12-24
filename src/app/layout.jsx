@@ -7,8 +7,8 @@ import clsx from 'clsx';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-	title: 'Hào Trương',
-	description: 'Hào Trương',
+	title: 'Khói 42',
+	description: 'Khói 42 - Rolling paper - Boong glass',
 }
 
 export default function RootLayout({ children }) {

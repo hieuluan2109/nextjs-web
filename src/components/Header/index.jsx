@@ -4,6 +4,7 @@ import CartIcon from "../CartIcon";
 import NavBar from "../NavBar";
 import SearchBar from "../SearchBar";
 import Sidebar from '../Sidebar';
+import Image from 'next/image';
 
 const Header = () => {
 	const router = useRouter();
@@ -12,9 +13,9 @@ const Header = () => {
 		<div>
 			<div className="w-full flex p-6 justify-between items-center">
 				<Sidebar />
-				<div onClick={() => router.push('/')}>
-					<img className="w-24 h-20 sm:w-20 sm:h-16" src="https://geekstoresvn.com/wp-content/uploads/2022/05/logo-moi.png" alt="Hao" />
-				</div>
+				<button onClick={() => router.push('/')}>
+					<Image width={80} height={64} className="w-full h-full" src="/logo.jpg" alt="Hao"/>
+				</button>
 				<SearchBar />
 				<button className='sm:w-auto w-[34px] transition-smoth flex items-center hover:font-medium' onClick={() => router.push('/cart')}>
 					<span className="sm:block text-nowrap hidden mr-2">Giỏ hàng</span>
