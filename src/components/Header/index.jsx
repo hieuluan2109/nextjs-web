@@ -11,10 +11,10 @@ const Header = () => {
 
 	return (
 		<div>
-			<div className="w-full flex p-6 justify-between items-center">
+			<div className="bg-gray-400 w-full flex p-6 justify-between items-center">
 				<Sidebar />
 				<button onClick={() => router.push('/')}>
-					<Image width={80} height={64} className="w-full h-full" src="/logo.jpg" alt="Hao"/>
+					<Image width={80} height={64} className="rounded-full w-full h-full" src="/logo.jpg" alt="Hao"/>
 				</button>
 				<SearchBar />
 				<button className='sm:w-auto w-[34px] transition-smoth flex items-center hover:font-medium' onClick={() => router.push('/cart')}>

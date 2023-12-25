@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={clsx(inter.className, 'max-w-5xl m-auto transition-all')}>
+			<body className={clsx(inter.className, 'bg-gray-300 max-w-5xl m-auto transition-all')}>
 				<Header />
 				{children}
 				<Footer />

@@ -2,8 +2,8 @@ import clsx from "clsx";
 
 const HeaderSider = ({ navClass = '' }) => {
 	return <div>
-		<nav className={clsx(" bg-gray-400 text-white shadow dark:bg-gray-800", navClass)}>
-			<div className="bg-gray-400 container flex items-center justify-center p-2 mx-auto capitalize dark:text-gray-300">
+		<nav className={clsx(" bg-gray-600 text-white shadow dark:bg-gray-800", navClass)}>
+			<div className="bg-gray-600 container flex items-center justify-center p-2 mx-auto capitalize dark:text-gray-300">
 				<a href="#" className="text-sm uppercase border-b-4 border-transparent hover:border-red-400 mx-1.5 sm:mx-6">Giấy cuốn</a>
 
 				<a href="#" className="text-sm uppercase border-b-4 border-transparent hover:border-red-400 mx-1.5 sm:mx-6">Tẩu Thuốc</a>

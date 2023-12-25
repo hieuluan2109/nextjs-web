@@ -11,7 +11,7 @@ const GoodsCard = ({ itemDetail = {}, showAddToCardButton = false, styles = {} }
 				<div className="w-full relative mx-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
 					<img
 						src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=927&amp;q=80"
-						className="h-full w-full object-cover"
+						className="h-full w-full object-stretch"
 					/>
 				</div>
 				<div className="p-4">
